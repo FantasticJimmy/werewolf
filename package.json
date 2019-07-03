@@ -1,0 +1,25 @@
+{
+  "name": "werewolf",
+  "version": "1.0.0",
+  "description": "This app is an web app that emphasizes the real experience of werewolf party game.",
+  "main": "index.js",
+  "repository": "https://github.com/FantasticJimmy/werewolf.git",
+  "author": "fantasticjimmy",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 12.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "./node_modules/.bin/nodemon --inspect index.js",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "nodemon": "^1.19.1"
+  }
+}
